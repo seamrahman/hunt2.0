@@ -1,0 +1,325 @@
+/* header part start */
+
+header{
+    background: #000 !important;
+    color: #fff !important;
+}
+
+header nav a {
+    transition: all linear .4s;
+    cursor: pointer;
+}
+
+header nav a:hover{
+    color: #FEC600 !important;
+}
+
+header button {
+	background: transparent !important;
+	border: 1px solid #fff !important;
+	padding: 10px 15px !important;
+    transition: all linear .4s !important;
+}
+
+header button:hover{
+    border-color: #FEC600 !important;
+    color: #FEC600 !important;
+}
+
+/* header part end */
+ 
+/* banner part start */
+.banner{
+    background: #000;
+}
+
+.banner h1{
+    color: #fff !important;
+}
+
+.banner p{
+    color: #fff !important;
+}
+
+.banner .view{
+    background: #FEC600;
+    color: #000;
+    border: 1px solid #FEC600;
+    transition: all linear .4s;
+    text-transform: uppercase;
+}
+
+.banner .view:hover{
+    background: transparent;
+    border-color: #Fff;
+    color: #fff;
+}
+
+.banner .hire{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear .4s;
+}
+
+.banner .hire:hover{
+    background: #FEC600;
+    color: #000;
+    border-color: #FEC600;
+}
+
+/* banner part end */
+
+/* about part start */
+
+.about{
+    background: #000;
+}
+
+.about h2{
+    color: #fff;
+}
+
+.about .holud{
+    color: #FEC600 !important;
+}
+
+.about .mt-2 {
+    color: #fff;
+}
+
+.about .ml-16{
+    color: #fff;
+}
+/* about part end */
+
+/* price part start */
+
+.price {
+    background: #202020;
+}
+
+.price h1{
+    color: #FEC600;
+    font-weight: 700;
+}
+
+.price p{
+    color: #ddd;
+}
+
+.price .maje{
+    display: flex;
+    justify-content: center;
+}
+
+.price .silver{
+    border-color: #FEC600;
+}
+
+.price .silver .popu{
+    background: #FEC600;
+    color: #000;
+}
+
+.price .silver h1{
+    color: #FEC600;
+}
+
+.price h2{
+    color: #ffff;
+}
+
+.price .silver h1 .mo{
+    color: #FEC600;
+}
+
+.price .silver p{
+    color: #dddd;
+}
+
+.price .silver button{
+    background: #FEC600;
+    border: 1px solid #FEC600;
+    color: #000;
+}
+
+.price .gold{
+    transition: all linear .4s;
+}
+
+.price .gold:hover{
+    border-color: #FEC600;
+}
+
+.price .gold button{
+    background: transparent;
+    border: 1px solid #ffff;
+    color: #ffff;
+    transition: all linear .4s;
+}
+
+.price .gold:hover button{
+    background: #FEC600;
+    border-color: #FEC600;
+    color: #000;
+} 
+
+.price .gold .mo{
+    color: #ffff;
+    transition: all linear .4s;
+}
+
+.price .gold:hover .mo{
+    color: #FEC600;
+}
+
+.price .silver svg{
+    color: #000;
+}
+
+.price svg{
+    color: #FEC600;
+    transition: all linear .4s;
+}
+
+.price .gold:hover svg{
+    color: #000;
+}
+
+/* price part end */
+
+/* team part start */
+
+.team{
+    background: #000;
+}
+
+.team h1{
+    color: #FEC600;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.team h2{
+    color: #FEC600;
+}
+.team h3{
+    color: #fff;
+}
+
+.team p{
+    color: #dddd;
+}
+
+.team svg{
+    color: #FEC600;
+}
+
+/* team part end */
+
+/* contact part start */
+
+.contact{
+    background: #282828;
+}
+
+
+.contact h1{
+    color: #FEC600;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact  label{
+    color: #dddd;
+}
+
+.contact p{
+    color: #dddddd;
+}
+
+.contact input{
+    background: #6666;
+    border-color: #6666;
+}
+
+.contact textarea{
+    background: #666;
+    border-color: #666;
+}
+
+.contact button{
+    background: #FEC600;
+    color: #000;
+    text-transform: uppercase;
+    transition: all linear .4s;
+    border: 1px solid #FEC600;
+}
+
+.contact button:hover{
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+
+/* contact part end */
+
+/* footer part start */
+.ftop{
+    background:#202020;
+}
+
+.ftop h2{
+    color: #FEC600;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ftop label{
+    color: #dddd;
+}
+
+.ftop li a{
+    color: #dddd;
+    transition: all linear .4s;
+    cursor: pointer;
+}
+
+.ftop li a:hover{
+    color: #FEC600;
+}
+
+.ftop p{
+    color: #ddd;
+}
+
+.ftop input{
+    background: #6666;
+    border-color: #666;
+}
+
+.ftop button{
+    background: #FEC600;
+    color: #000;
+    border: 1px solid #FEC600;
+    transition: all linear .4s;
+}
+
+.ftop button:hover{
+    background: transparent;
+    border-color: #ffff;
+    color: #ddd;
+}
+
+.fbottom{
+    background: #282828;
+}
+
+.fbottom svg{
+    color: #FEC600;
+}
+
+/* footer part end */
